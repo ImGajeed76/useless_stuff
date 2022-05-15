@@ -1,0 +1,15 @@
+useless_string.py:
+ - random_string
+ - is_letter
+ - shift
+ - word_count
+ - longest_word
+ - count_letters
+ - reverse
+ -
+
+useless_matrix.py:
+ -
+
+convert.py:
+ -
