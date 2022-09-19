@@ -22,11 +22,11 @@ lorem_ipsum_sentences = [
 
 
 @numba.jit(nopython=True)
-def random_string(length: int):
+def random_string(length: int, chars: str = lowers):
     result = ""
     for i in range(length):
-        rand = random.randint(97, 97 + 26)
-        result += chr(rand)
+        rand = random.randint(0, len(chars)-1)
+        result += chars[rand]
     return result
 
 

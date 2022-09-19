@@ -1,15 +1,19 @@
 useless_string.py:
- - random_string
- - is_letter
- - shift
- - word_count
- - longest_word
- - count_letters
- - reverse
+ - random_string ✓
+ - is_letter ✓
+ - shift ✓
+ - word_count ✓
+ - longest_word ✓
+ - count_letters ✓
+ - reverse ✓
  -
 
 useless_matrix.py:
  -
 
 convert.py:
- -
+ - to_celecius
+ - to_fahrenheit
+ - to_kelvin
+ - to_radian
+ - to_degree
